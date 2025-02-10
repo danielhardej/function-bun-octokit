@@ -1,10 +1,7 @@
 FROM ghcr.io/railwayapp/function-bun:1.2.2
 
-# Set the working directory
-WORKDIR /app
-
 # Copy package.json and package-lock.json
-COPY package.json package-lock.json ./
+COPY package.json ./
 
 # Install dependencies
 RUN bun install
