@@ -1,0 +1,16 @@
+{
+  "name": "function-bun-octokit",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/auth-app": "^7.1.4",
+    "@octokit/rest": "^21.1.0"
+  },
+  "scripts": {
+    "start": "bun index.ts"
+  },
+  "engines": {
+    "bun": ">=0.1.0"
+  }
+}
